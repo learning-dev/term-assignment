@@ -21,6 +21,16 @@ touch -c filename # prevent creation of new file, if it doesn't exists
 mkdir foldername # creates a new folder/directory
 mkdir -p parentfolder/childfolder # create folder 'parentfolder' if it doesn't exits.
 ```
+- **cd** : cd (change directory ) is used to switch between directories. **cd ..** will take you to one directory up. **cd -** will take you previous directory that you came from. **~** represents home directory. So, **cd ~** will take you to **home** directory.
+
+```bash
+# consider structure ~/homework/math/, you are in ~(home)
+cd homework # get into homework folder
+cd math # get into math folder
+cd .. # go one directory up i.e. homework
+cd - # takes you to last directory you were in i.e. math
+```
+
 
 
 
