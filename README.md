@@ -19,7 +19,7 @@ touch -c filename # prevent creation of new file, if it doesn't exists
 
 ```bash
 mkdir foldername # creates a new folder/directory
-touch -p parentfolder/childfolder # create folder 'parentfolder' if it doesn't exits.
+mkdir -p parentfolder/childfolder # create folder 'parentfolder' if it doesn't exits.
 ```
 
 
