@@ -67,4 +67,50 @@ ls  -R  # -R list all the files and folders inside the "sub-directories" inside 
 ls -ltr # lists all the files in reverse time order (latest first) -r option to display in reverse.
 ls -lS # -S with l with display size in descending order(biggest first)
 ```
+**7.** **cp**: used to copy files and folder. Use **-R** option to copy directory to another directory.  cp takes **source** and **destination** file/folder as arguments. use **--preserve** option lets you preserve the file attributes like permissions, groups and user ownerships. **-v** prints out the files being copied currently to the stdout. **-b** Option to create backups before overwriting. **-i** option to ask before overwrite.
+
+```bash
+# delete using rm command
+cp -R source_folder destination_folder # copy the source folder to a destination folder
+cp oldfile.txt anotherfile.txt  # copy using cp command
+cp -i file1.txt file3.txt  # ask before overwrite a file, hit y to proceed .
+cp -v file1.txt another_folder/file1.txt # display which file is being copied now.
+cp -b file1.txt file2.txt # backup of file1.txt will created before overwriting(renaming) to file2.txt
+cp  -S .bak -b file1.txt file2.txt # -S to specify the extension of the backup file that you want.
+
+```
+
+**8.** **pwd**: displays the current working directory. **-P** option shows the physical links rather than symbolic links
+
+
+```bash
+# delete using rm command
+pwd  # display the (whole path) current working directory.
+/home/mohammed/.zsh # output
+
+pwd -P  # Shows the physical location rather symbolic link
+/home/mohammed/dotfiles/zsh
+
+```
+
+**9.** **cat**: used to display the contents of the file, concatinate files and redirect the ouput of the file.
+
+```bash
+# delete using rm command
+cat file1.txt # displays the content of the file stdout(terminal)
+cat file1.txt file2.txt > file3.txt  # moves the contents file1.txt & file2.txt to new file3.txt
+cat file1.txt file3.txt >> file2.txt  # concat the file1.txt file3.txt an "existing" file3.
+cat file1.txt file1.txt | sort > file3.txt # combine both files and sort the content in alphabetically and store to file3.txt.
+
+```
+
+**10.** **nano**: It is a light-weight text editor. nano "filename" to open a file. **ctrl + o** to save and **ctrl + x** to exit.
+
+```bash
+# delete using rm command
+nano file1.txt # open the file in the nano editor.
+```
+
+
+
 
