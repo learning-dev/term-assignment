@@ -112,4 +112,35 @@ nano file1.txt # open the file in the nano editor.
 ```bash
 clear  # clear the terminal screen
 ```
+**2.** **sudo**: stands for "SuperUser Do". Lets you run any command with Admin (super User) privileges. **Think twice before, running rm -rf with sudo**
 
+ ```bash
+sudo sh run_package.sh  # run script with super user privileges.
+```
+**3.** **history**: it gives you the list of  previous 500 commands (number depends on your config) ran in your terminal.
+
+
+```bash
+history  # list 500 previous commands
+history 25 # list 25 previous commands
+histroy | tail # list 25 previous commands
+```
+
+**4.** **tar**: it is used to compress and uncompress files. It supports formats like tar, tar.gz and tar.bz2. **-c** lets you create compressed file. **-x**, for uncompressing the file. It requires a **f** paramater to pass the file.
+
+```bash
+tar -cvf source_file.tar /home/source_file  # -c :create file, v-verbose, f- filename - create a source_file in current directory
+tar -cvzf source_file.tar /home/source_file # create gz file using z option
+
+tar -xvf file.tar  # extract the file. notice -x to extract
+
+tar -tvf test_file.tar.gz # list the files in zip.
+
+```
+
+**5.** **uname**: show the information about the system your Linux/unix distro is running. **uname -a** prints the information like kernel release date, version, processor type, etc.
+
+```bash
+uname   # just the distribution name
+uname -a  # kernel release date, version, processor type, etc.
+```
