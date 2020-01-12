@@ -144,3 +144,31 @@ tar -tvf test_file.tar.gz # list the files in zip.
 uname   # just the distribution name
 uname -a  # kernel release date, version, processor type, etc.
 ```
+
+**6.** **chmod**: chmod is used to change the permissions of the file. you can change using octal values and using ugo (user, group others) + permission( rx or just x). Octal values are **4 - read**, **2 - write**, **1 - execute**. So, we take the combination for read, write and execute 7. We take the sum of the values for each group
+
+```bash
+chmod 754 run_package.sh   # user = 7 (rwx), group= 5(rx) & others = read (r)
+chmod + x run_package.sh # add executable permission to all i.e ugo
+
+chmod u+x run_package.sh # add execution perm to only user.
+
+chmod u=rwx, g=rx, 	o=r run_package.sh #another way of giving permissions.
+```
+
+**7.** **hostname**: It display the hostname. hostname -f newhostname to change the hostname (sudo perm required.). Paramters differ for mac and linux
+
+```bash
+hostname  # display hostname
+
+sudo hostname -f newhostname
+
+hostname -s # display shortname, if any
+
+```
+
+
+
+
+
+
