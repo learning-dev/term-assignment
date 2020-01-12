@@ -293,7 +293,7 @@ git status # shows the status of working tree
 git status -s # show in short form
 git status --show-stash # show status of stash as well.
 ```
-*4.** **git push** : push the files to remote repository. **-u** option to set upstream. **-f** push the files by force i.e by overwriting the refs.
+**4.** **git push** : push the files to remote repository. **-u** option to set upstream. **-f** push the files by force i.e by overwriting the refs.
 
 ```bash
 git push # push the files remote repo
@@ -301,6 +301,13 @@ git push -u origin master # set the upstream to master branch of origin
 git push -f # push files to remote repo by force i.e. overwriting refs
 ```
 
+**5.** **git reset** : remove the files from staging area.  if you specify filename or multiple files then, it removes those files from staging area. **--hard** option removes files from staging area and discards the changes made after the last commit.
 
+
+```bash
+git reset # removes files from staging area.
+git reset  server.py # remove server.py from staging area.
+git reset --hard server.py # remove server.py from staging area and discard all changes after prevous commit.
+```
 
 
