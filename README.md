@@ -329,4 +329,9 @@ git stash list # list all the stash saved in the stack
 git stash apply # apply the changes from the stash to the working directory (a stash from top of the stack) when no stash-name is given.
 ```
 
+**8.** **git pull** : pull the changes from remote repo to local repo. It is required to pull before pushing to remote repo.
+
+```bash
+git pull # pull from remote repo.
+```
 
