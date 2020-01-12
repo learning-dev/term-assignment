@@ -335,12 +335,15 @@ git stash apply # apply the changes from the stash to the working directory (a s
 git pull # pull from remote repo.
 ```
 
-**8.** **git cherry-pick** : choose a commit from another branch and add it your branch and commit. It takes commit **hash** i.e atleast 4 characters.
+**9.** **git cherry-pick** : choose a commit from another branch and add it your branch and commit. It takes commit **hash** i.e atleast 4 characters.
 
 ```bash
 git cherry-pick 1cb2fG # cherry-pick commit with given hash
 ```
 
+**10.** **git merge :** used to merge a given branch name to current branch. i.e all the changes (commits) from merged branch. This creates a new merge commit.
 
-
+```bash
+git merge another-branch # cherry-pick commit with given hash
+```
 
