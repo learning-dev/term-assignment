@@ -246,5 +246,23 @@ mohammed s002     -                Sat11   27:00 -zsh
 mohammed s003     -                Sat18       - w
 mohammed s004     -                21:46       3 -zsh
 ```
+**8.** **whois** : displays whois information about the given domain-name like registrar, name servers and so on
 
+```bash
+whois google.com
+```
+
+**9.** **tcpdump** : allows you to capture and analyze network traffic going through your system. Often used to help troubleshoot network issues, as well security tool.
+
+```bash
+sudo tcpdump -D # lists the interfaces available for capture.
+sudo tcpdump -i any # start capturing packets
+```
+
+**10.** **wget** : used to downloading files from internet. It supports downloading multiples files, download resume and limiting bandwidth used for downloads.
+
+```bash
+wget http://archlinux.mirrors.uk2.net/iso/2016.09.03/archlinux-2016.09.03-dual.iso # download the iso files
+wget -c http://archlinux.mirrors.uk2.net/iso/2016.09.03/archlinux-2016.09.03-dual.iso # resumes download if started again at same directory.
+```
 
