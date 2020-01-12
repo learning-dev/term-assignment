@@ -191,4 +191,60 @@ head test.txt config.txt # display 10 lines each from these files with headers t
 ```
 
 
+## 10 Popular Network Commands
+
+
+**1.** **ping** : sends ICMP (Internet Control Protocol) echo request packages to the destination IP (server). You can use it check if you internet is workign or the remote destination is working.
+
+```bash
+ping 8.8.8.8 # ping google dns to check if you internet is working
+ping your-website.com # to check if your server is up or not.
+```
+
+**2.** **ping** : sends ICMP (Internet Control Protocol) echo request packages to the destination IP (server). You can use it check if you internet is workign or the remote destination is working.
+
+```bash
+ping 8.8.8.8 # ping google dns to check if you internet is working
+ping your-website.com # to check if your server is up or not.
+```
+**3.** **traceroute** : It is used to trace the route taken to network host.
+
+```bash
+traceroute facebook.com   # trace the route taken to reach the domain facebook.com
+```
+
+**4.** **nslookup** : used to query the Internet domain name servers. nslookup domain-name.com, checks if given domain name exists or not.
+
+```bash
+nslookup i-made-thatup.com  # checks if the domain exists or not
+"** server can't find i-made-thatup.com: NXDOMAIN" # output
+```
+
+**5.** **netstat** : allows you a simple way to review each of your network connections and open sockets. It is helpful while performing web server troubleshooting.
+
+```bash
+netstat # displays protocol, ports information
+```
+
+**6.** **scp** : allows you to copy files to and from another host in the network. This is useful **when you are deploying application to you webserver.**. **-c** to enable compression and **6** forces scp to use IPv6. **4** forces to scp to use IPv4.
+
+```bash
+scp $configure.sh user@targethost:/$path
+```
+
+**7.** **w** : prints the summary of the current activity on the sysmtem, which includes **what each user is doing, and their process** plus **list all logged in users and system load for 1, 5 and 15 minutes**
+
+```bash
+w # display information
+
+22:06  up 4 days, 26 mins, 6 users, load averages: 1.87 1.67 1.62
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+mohammed console  -                Wed21   4days -
+mohammed s000     -                Fri14   1day  -zsh
+mohammed s001     -                Wed22   27:36 node /Users/mohammed/Documents
+mohammed s002     -                Sat11   27:00 -zsh
+mohammed s003     -                Sat18       - w
+mohammed s004     -                21:46       3 -zsh
+```
+
 
