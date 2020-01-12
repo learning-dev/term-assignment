@@ -335,3 +335,12 @@ git stash apply # apply the changes from the stash to the working directory (a s
 git pull # pull from remote repo.
 ```
 
+**8.** **git cherry-pick** : choose a commit from another branch and add it your branch and commit. It takes commit **hash** i.e atleast 4 characters.
+
+```bash
+git cherry-pick 1cb2fG # cherry-pick commit with given hash
+```
+
+
+
+
