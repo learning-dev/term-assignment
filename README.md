@@ -266,3 +266,23 @@ wget http://archlinux.mirrors.uk2.net/iso/2016.09.03/archlinux-2016.09.03-dual.i
 wget -c http://archlinux.mirrors.uk2.net/iso/2016.09.03/archlinux-2016.09.03-dual.iso # resumes download if started again at same directory.
 ```
 
+## 10 Popular GIT Commands
+
+**1.** **git init** : creates an empty git reposistory or reinitializes an existing one. There is ".git" folder created in the initialized directory.
+
+
+```bash
+git init # initilize a git repo.
+
+```
+
+**2.** **git add** : add files to staging area before committing. git add **filename** to file staging area. **-u** option adds the change of the tracked files and not the changes of new file (unstaged). **-A** option adds all changes to staging area (including new files i.e. unstaged).
+
+
+```bash
+git add server.py # add server.py to staging area.
+git add -u # add changes of staged files only, ignore new files
+
+git add -A # add all changes including new files and deletion of files.
+```
+
