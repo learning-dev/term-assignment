@@ -285,4 +285,22 @@ git add -u # add changes of staged files only, ignore new files
 
 git add -A # add all changes including new files and deletion of files.
 ```
+**3.** **git status** : shows the status of the tree like **files in staging area**, **unstaged files**, **untracked files** and also **commits behind or forward by remote origin**. **-s** shows the status in short form.
+
+
+```bash
+git status # shows the status of working tree
+git status -s # show in short form
+git status --show-stash # show status of stash as well.
+```
+*4.** **git push** : push the files to remote repository. **-u** option to set upstream. **-f** push the files by force i.e by overwriting the refs.
+
+```bash
+git push # push the files remote repo
+git push -u origin master # set the upstream to master branch of origin
+git push -f # push files to remote repo by force i.e. overwriting refs
+```
+
+
+
 
