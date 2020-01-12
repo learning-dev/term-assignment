@@ -167,8 +167,28 @@ hostname -s # display shortname, if any
 
 ```
 
+**8.** **top**: It displays all currently-running processes and their owners, memory usage, and lots of other details.
 
+```bash
+top  # display process detail
+```
 
+**9.** **echo**: echo command is used to display the contents of evironment variables and display the passed text. echo * will work as ls command. echo can be used to fill in the text into a file.
+
+```bash
+echo $PATH  # display Path env
+echo * # works as ls command
+echo some random line # displays 'some random line'
+echo insert your line > test.txt # write term 'insert your line' to test.txt
+```
+
+**10.** **head**: shows the first 10 lines of the file. with option **-n** no-of-lines will display the required lines. you pass in multiples files too.
+
+```bash
+head test.txt  # display first 10 lines
+head -n 20 test.txt # display first 20 lines
+head test.txt config.txt # display 10 lines each from these files with headers to specify.
+```
 
 
 
