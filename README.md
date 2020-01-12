@@ -310,4 +310,23 @@ git reset  server.py # remove server.py from staging area.
 git reset --hard server.py # remove server.py from staging area and discard all changes after prevous commit.
 ```
 
+**6.** **git commit** : commit the changes in the staging area. it takes **-m** takes a commit message. It opens a nano/vi editor to add a commit message.
+
+
+```bash
+git commit -m 'commit message' # commit
+git commit  # opens your default git text editor to add msg
+```
+
+**7.** **git stash** : adds your changes (staged and unstaged) to stash and gives you clean working directory.  **--save** option takes a name to save with. **apply** option applies the changes from the stash stack i.e. on the top of stack. **list** options lists all the stash in the stack.
+
+
+```bash
+git stash # stash all the changes to stash 'stack'
+git stash --save 'fix: incorrect followr count' # save to stash with a name
+git stash list # list all the stash saved in the stack
+
+git stash apply # apply the changes from the stash to the working directory (a stash from top of the stack) when no stash-name is given.
+```
+
 
