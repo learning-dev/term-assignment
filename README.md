@@ -737,10 +737,27 @@ It is a PaaS that let's you deploy applications easily, without much effort.
 Hoisting is JavaScript's default behavior of moving declarations to the top.
 
 
+## Closures
+
+Closure is the combination of a function bundled together (enclosed) with references to its surrounding state. In other words, two functions clubbed together i.e one function inside other one. Closure gives you access to an outer function’s scope from an inner function.
 
 
+```
+function makeFunc() {
+  var name = 'Ayaz';
+  function displayName() {
+    alert(name);
+  }
+  return displayName;
+}
 
+var myFunc = makeFunc();
+myFunc();
+```
 
+## React? Why?
+
+**React** is a javascript library created by Facebook. React is used to build user interface components. It has support for JSX, that let's you put in HTML code in javascript.
 
 
 
