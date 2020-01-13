@@ -695,6 +695,46 @@ A Progressive Web App (PWA) is a web app that uses modern web capabilities to de
 
 ## Session Based Authentication
 
+- Session based authentication is one in which **the user state is stored on the server’s memory.**
+
+- the server creates and stores the session data in the server memory when the user logs in and then stores the session Id in a cookie on the user browser.
+
+
+## Token Based Authentication
+
+- Token based authentication is one in which the **user state is stored on the client.** Preferred mode of authentication for RESTful APIs.
+
+
+## Authorization
+
+Authorization is the process of giving someone permission to do or have something.
+
+## Docker
+
+**Docker** is a computer program that **performs operating-system-level virtualization** also known as **containerization.** These **containers are isolated from one another** and **bundle their own software, libraries and configuration files;**
+
+
+## IaaS
+
+Infrastructure as a service (IaaS) is an instant computing infrastructure, provisioned and managed over the internet.
+
+
+## AWS
+
+**Amazon Web Services** (AWS) is amazon cloud computing platform, where you can rent computing instances to deploy your apps.
+
+## PaaS
+
+Platform as a service (Paas) is a complete development and deployment environment in the cloud. It is designed to support the complete web application lifecycle: building, testing, deploying, managing and updating.
+
+## Heroku
+
+It is a PaaS that let's you deploy applications easily, without much effort.
+
+
+## Hoisting
+
+Hoisting is JavaScript's default behavior of moving declarations to the top.
 
 
 
