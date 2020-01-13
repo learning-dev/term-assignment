@@ -427,6 +427,42 @@ for Example, Manager manages Project **or** Employees doesn't makes sense. He ha
 
 
 
+## Normalization
+
+It is the **process of reducing the redundancy of data** in the table and also **improving the data integrity**. There are various database normalization rules like 1NF, 2NF and so on.
+
+
+## Database Sharding
+
+**Sharding** is a database Architechture pattern related to horizontal partitioning -- **the practice of separating one table’s rows into multiple different tables, known as partitions.**
+
+Each **partition has the same schema and columns**, but also **entirely different rows**.
+
+
+
+## 7 network layers
+
+- **Physical (Layer 1)**: responsible for **transmission and reception of unstructured raw data between device and physical trasmission medium**. Layers converts digital bits into electrical, radio or optical signals.
+
+- **Data Link (Layer 2)** : The data link layer provides **node-to-node data transfer** - a link between two directly connected nodes. It **detects and possibly corrects errors** that may occur **in the physical layer.**
+
+- **Network (Layer 3)**: layer provides the functional and procedural means of 	transferring variable length of data sequences (called packets) from one node to another connected in **different networks**.
+
+
+- **Transport (Layer 4)** - layer provides the functional and procedural means of **transferring variable-length data sequences from a source to a destination host**, **while maintaining the quality of service functions**.
+
+- **Session (Layer 5)** - layer controls  the connections between computers. It establishes, manages and terminates the connections between local and remote application.
+
+- **Presentation (Layer 6)** -  layer provides independence from data representation by **translating between application and network formats.** The presentation layer **transforms data into the form that the application accepts.**
+
+- **Application (Layer 7)** - layer closest to the **end user**, which means **both OSI application layer and user interact directly with software application.** This layer interacts with software applications that implement a communicating component.
+
+
+
+
+
+
+
 
 
 
