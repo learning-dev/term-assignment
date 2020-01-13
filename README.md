@@ -575,6 +575,61 @@ A database server is a server which uses a database application that **provides 
 Computer programs that **can work offline**, i.e. does not necessarily require network connection to function
 
 
+## MVC
+
+**Model View Controller** is a software design pattern commonly used for developing user interfaces which divides the related program logic into three interconnected components.
+
+## Operating System
+
+Operating System is a system software that manages computer hardware, software resources and provides common services for computer programs. It is an interface between user and computer hardware.
+
+## Kernel
+
+Kernel is a computer program that is the core part of an operating system. It has complete control over the system.
+
+
+## Process
+
+Process is an instance of computer program that is being **executed** by one or more threads.
+
+
+## Thread
+
+Thread (of execution) is way for program to split themselves in two or more simultaneously running tasks. You can say, thread is a light weight version of process. one or  threads are present in a process.
+
+## SOLID (principles)
+
+SOLID is an Acronym for **Five Object-oriented Design** Principles by Robert C Martin.
+
+- S - Single-responsiblity principle
+- O - Open-closed Principle
+- L - Liskov Substitution Principle
+- I - Interface Segregation Principle
+- D - Dependency Inversion Principle
+
+
+## Apache Web Server
+
+Apache is most widely used  web server software. a Server that run this software is called Apache web server.
+
+
+## NGinx Web Server
+
+Nginx is web server software, which known for its high perfomance and scalibilty. It is opensource, comes bundled many other things like reverse proxy etc.
+
+
+## Messaging Queue
+
+Messaging Queue allows application to communicate by sending messages to each other. The message queue stores messages when the destination program is busy or not connected.
+
+## Enterprise Message Bus
+
+a communication system between mutually interacting software applications in service-oriented architecture.
+
+
+
+
+
 
 
 
