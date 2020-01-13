@@ -513,6 +513,12 @@ Used to select the **content you want to style**. Selectors are the part of CSS 
 
 CSS Specificity is the set of the rules applied to CSS selectors in **order to determine which style is applied** to an element.
 
+**Highest specificity to Lowest sepcificity**
+
+**Style attribute > ID > class, pseduo-class, attribute > Elements**
+
+
+
 
 
 
