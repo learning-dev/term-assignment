@@ -518,6 +518,29 @@ CSS Specificity is the set of the rules applied to CSS selectors in **order to d
 **Style attribute > ID > class, pseduo-class, attribute > Elements**
 
 
+## Flexbox
+
+**Flexbox** is layout model in css that let's you arrange (style) elements in easier way.  It is one-dimensional
+
+## Grid
+
+The CSS **Grid** Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+
+## Git
+
+**Git** is a distributed version-control system for tracking changes in source code during software development.
+
+## HTTP
+
+HTTP stands for Hyper Text Transfer Protocol, used for communicating between computers over web.
+
+Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses
+
+
+## TCP
+
+TCP (Transmission Control Protocol) is a standard that defines how to establish and maintain a network conversation through which application programs can exchange data.
 
 
 
