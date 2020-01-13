@@ -791,7 +791,17 @@ Having multiples states at different components is difficult to manage. **Redux 
 
 
 
+## Prototypal Inheritance
 
+- Inheritance is not same as other object oriented languages like C++ or Java.
+
+- In javascript, **everything is an Object**  and every object has a **prototype** of it's parent object.
+
+- Any methods that are there in **parent object** are accessible by the **child object**. In other words, **methods of parent object are inherited by the child object**.
+
+- If a method is not found on the current object then it's looks in prototype of the parent object. this is called method chaining.
+
+- In javascript, everything **function is constructor.**
 
 
 
