@@ -543,6 +543,11 @@ Communication between client computers and web servers is done by sending HTTP R
 TCP (Transmission Control Protocol) is a standard that defines how to establish and maintain a network conversation through which application programs can exchange data.
 
 
+## UDP
+
+**UDP** is a communication protocol used across the Internet for especially **time-sensitive transmissions such as video playback or DNS lookups.**
+
+
 
 
 
