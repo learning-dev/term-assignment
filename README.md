@@ -397,5 +397,38 @@ git merge another-branch # cherry-pick commit with given hash
 
 - **Durability** : After a transaction successfully completes, changes to data persist and are not undone, even in the event of a system failure.
 
+## Aggregations
+
+**Aggregations** is a process in which a single entity alone is not able to make sense in relationship so the relationship of two entities acts as one entity.
+
+for Example, Manager manages Project **or** Employees doesn't makes sense. He has to manage **both** employees and work on project too. so both, enties - project and employees defin the relationship with manager.
+
+
+## Joins
+
+**Joins** is a clause in SQL that lets  combine columns while querying the data. Joins correspond to operation in relational algebra. inner join, outer join, cross join are the types of joins.
+
+
+## CAP Theorem
+
+**CAP** theorem is a tool used to makes system designers aware of the trade-offs while designing networked shared-data systems.
+
+
+ The theorem states that networked shared-data systems can only guarantee **two of** the following **three properties**:
+
+ **Consistency** - A guarantee that every node in a distributed cluster returns the same, most recent, successful write. Consistency refers to every client having the same view of data.
+
+**Availabilty** - Every non-failing node returns a response for all read and write request in a resonable amount of time.
+
+
+**Partition Tolerant** - The system continues to function and upholds its consistency guarantees in spite of network partitions.
+
+So, it possible to have **two at a time** i.e. **CP (Consistent and Partition Tolerant)** or **CA Consistent and Available)** or **AP (Available and Partition Tolerant)**
+
+
+
+
+
+
 
 
