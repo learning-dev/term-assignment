@@ -440,7 +440,7 @@ Each **partition has the same schema and columns**, but also **entirely differen
 
 
 
-## 7 network layers
+## 7 network layers (OSI Model)
 
 - **Physical (Layer 1)**: responsible for **transmission and reception of unstructured raw data between device and physical trasmission medium**. Layers converts digital bits into electrical, radio or optical signals.
 
@@ -458,9 +458,60 @@ Each **partition has the same schema and columns**, but also **entirely differen
 - **Application (Layer 7)** - layer closest to the **end user**, which means **both OSI application layer and user interact directly with software application.** This layer interacts with software applications that implement a communicating component.
 
 
+## Request Response Protocol
+
+Request-response protocal is basic **method that computers use to communicate**, in which the **sender(client computer) requests for data and the second (server) responds to the request.**
 
 
+## Web API
 
+**API** - kind of interface which has set of functions that allow programmers to access specific features or data of an application or other services.
+
+**Web API** is an API that on **Web** and uses HTTP protocol.
+
+## REST API - Representational state transfer
+
+**API** that follows the following rules:
+- **Client Server Architecture** - separating client and server constraints, which allows them to evolve independently.
+
+- **Statelessness** - NO client context being stored on the server between requests. Each request from any client contains all the information necessary to service the request, and the session state is held in the client.
+
+- **Cacheability** - clients and intermediaries can cache responses. Response must specify (explicitly or implicitly) that if it is cacheable or not, to prevent client from getting stale response. Well-managed caching partially or completely eliminates some client-server interactions, further improving scalability and performance.
+
+- **Layered system** - A client cannot ordinarily tell **whether it is connected directly to the end server, or to an intermediary along the way**. This means that the **client doesn't know if it's talking with an intermediate or the actual server.**
+
+
+## HTTP Status Codes
+
+HTTP status codes are issued by server in respose to client's request and they have a meaning for each status code like **200 for success**, **404 for resource not found.**
+
+
+## HTML
+
+**Hypertext Markup Language** (HTML) is the standard markup language **for documents designed to be displayed in a web** browser.
+
+
+## Box Model
+
+The term **Box Model** refers to a box that wrap around every html element. It consists of **margin, borders, padding and the actual content**
+
+
+## Margin
+
+Area outside the border of an HTML element. It is transparent. You can specify for four corners i.e. top, bottom, right and left.
+
+## Padding
+
+Area between border and actaul content of an HTML element. It is transparent. You can specify for four corners i.e. top, bottom, right and left.
+
+
+## CSS Selectors
+
+Used to select the **content you want to style**. Selectors are the part of CSS rule set. CSS selectors select HTML elements according to its id, class, type, attribute etc.
+
+## CSS Specificity
+
+CSS Specificity is the set of the rules applied to CSS selectors in **order to determine which style is applied** to an element.
 
 
 
