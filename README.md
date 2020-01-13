@@ -1,6 +1,6 @@
 # Term-assignment
 
-**Assignment given by the mentor to explain the given terms with not more than 2 lines.**
+**Assignment given by the mentor to explain the given terms with minimum 2 lines.**
 
 
 ## 10 popular commands - daily use
