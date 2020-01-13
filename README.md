@@ -562,7 +562,17 @@ A static web server, consists of a computer (hardware) with an HTTP server(softw
 A static server with some extra software. Application server updates the hosted files before sending them over to the browser.
 
 
+## DNS Server
 
+Domain name system maps the "name" of the domain to the corresponding ip address of the server.  DNS sever is the server that hosts this DNS system.
+
+## Database Server
+
+A database server is a server which uses a database application that **provides database services** to other computer programs.
+
+## Standalone Application
+
+Computer programs that **can work offline**, i.e. does not necessarily require network connection to function
 
 
 
