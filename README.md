@@ -375,7 +375,11 @@ git merge another-branch # cherry-pick commit with given hash
 
 **6.  SAP HANA** - database engine by SAP that is column-oriented and can handle SAP and non SAP data. Supports SQL. Pricing is high.
 
-**7.  Oracle Database** - very first database engine to be developed and is relational.
+**7.  Oracle Database** - very first database engine to be developed and is relational. Oracle tends to set the bar for other databases. requires resources once installed. Pricing let's only few orgs use it.
 
+**8.  DB2** - database developed by IBM, has NoSQL capabalities. It can read JSON and XML Files. Ideal for Large organizations.
 
+**9. Cassandra** - NoSQL database engine by Apache, which is distributed, column wide store, with no single point of failure and high availability.
+
+**10. Redis** - it is an open source database, with im-memory data structure store. Can be used database, cache and message broker.
 
