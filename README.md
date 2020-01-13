@@ -355,3 +355,27 @@ git merge another-branch # cherry-pick commit with given hash
 
 **SQL Database** - SQL stands for Structured Query language, used for query, manipulate and define data.  It is a relational database - a type of database that stores and datapoints access that are related to one another.
 
+## NoSQL Database -
+
+**NoSQL Database** - It is a non-relational database that does not require fixed schema, avoid joins and is easy to scale. Read is faster in case of NoSQL database. One such example would be MongoDB.
+
+
+## 10 popular databases
+
+**1. MySQL server** - It is a relational database. Most popular for web applications. It's a freeware, with frequent security and feature updates.
+
+**2. PostGresSQL** - Relational Database, frequently used for web databases. Allows user to manage both structured and unstructured data. Can be hosted at number of enivronments.
+
+**3. Microsoft SQL Server** - SQL database engine built by Microsoft. Works on both cloud-based servers and local servers. Provides features like dynamic data masking (only authorized users can see sensitive info). Ideal for organizations that use microsoft products. pricing wise only few organizations can afford.
+
+**4. MongoDB** - non relational Database that supports JSON. Data of any structure can be stored and accessed quickly and easily. schema can be written without downtime.
+
+**5. MariaDB** - originally forked from Mysql. It is highly compatible with MySql. gives variety of storage engines to choose from. Fairley new compared to Mysql DB.
+
+
+**6.  SAP HANA** - database engine by SAP that is column-oriented and can handle SAP and non SAP data. Supports SQL. Pricing is high.
+
+**7.  Oracle Database** - very first database engine to be developed and is relational.
+
+
+
