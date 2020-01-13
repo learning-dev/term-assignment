@@ -779,6 +779,21 @@ Redux is a predictable state container for JavaScript apps. It makes it easy to 
 Why?
 Having multiples states at different components is difficult to manage. **Redux makes it easier to manage the states at one place and only special function can make changes to a state.**
 
+## Mutable Methods in JS
+
+
+**Mutable methods** are those methods that change the state of the original objects that are passed in like **slice, push, splice**
+
+
+## Immutable Methods in JS
+
+**Immutable Methods** are those methods **do not** change the state of original objects that are passed in, instead they return a new object with the changes. like **concat** or **spread** operator.
+
+
+
+
+
+
 
 
 
