@@ -416,14 +416,14 @@ for Example, Manager manages Project **or** Employees doesn't makes sense. He ha
 
  The theorem states that networked shared-data systems can only guarantee **two of** the following **three properties**:
 
- **Consistency** - A guarantee that every node in a distributed cluster returns the same, most recent, successful write. Consistency refers to every client having the same view of data.
+- **Consistency** - A guarantee that every node in a distributed cluster returns the same, most recent, successful write. Consistency refers to every client having the same view of data.
 
-**Availabilty** - Every non-failing node returns a response for all read and write request in a resonable amount of time.
+- **Availabilty** - Every non-failing node returns a response for all read and write request in a resonable amount of time.
 
 
-**Partition Tolerant** - The system continues to function and upholds its consistency guarantees in spite of network partitions.
+- **Partition Tolerant** - The system continues to function and upholds its consistency guarantees in spite of network partitions.
 
-So, it possible to have **two at a time** i.e. **CP (Consistent and Partition Tolerant)** or **CA Consistent and Available)** or **AP (Available and Partition Tolerant)**
+- So, it possible to have **two at a time** i.e. **CP (Consistent and Partition Tolerant)** or **CA Consistent and Available)** or **AP (Available and Partition Tolerant)**
 
 
 
