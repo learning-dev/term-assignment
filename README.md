@@ -347,3 +347,11 @@ git cherry-pick 1cb2fG # cherry-pick commit with given hash
 git merge another-branch # cherry-pick commit with given hash
 ```
 
+## Explain Database
+
+**Database** - It is an organized collection of data. Complex databases are developed using 'design and modelling' techniques.
+
+## SQL Database
+
+**SQL Database** - SQL stands for Structured Query language, used for query, manipulate and define data.  It is a relational database - a type of database that stores and datapoints access that are related to one another.
+
