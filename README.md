@@ -759,6 +759,28 @@ myFunc();
 
 **React** is a javascript library created by Facebook. React is used to build user interface components. It has support for JSX, that let's you put in HTML code in javascript.
 
+Why?
+React let's you create large web applications that change the data without reloading the page. You can create single page websites using react.
+
+## State in React
+
+**state** is an object that represents part of the app that can change. Each component can have their own state or you can store all the states in parent component and access it using **```this.props.state```**
+
+## Props in React
+
+**Props** is a special keyword in React, which stands for **Properties**. It is like **function argument** passed in components. It can be passed in **uni-directional flow** i.e only one way **parent to child**.
+
+
+
+## Redux
+
+Redux is a predictable state container for JavaScript apps. It makes it easy to manage the state of your application. **It is like a place to store states at one place and change it using functions.**
+
+Why?
+Having multiples states at different components is difficult to manage. **Redux makes it easier to manage the states at one place and only special function can make changes to a state.**
+
+
+
 
 
 
