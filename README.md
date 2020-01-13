@@ -548,6 +548,21 @@ TCP (Transmission Control Protocol) is a standard that defines how to establish 
 **UDP** is a communication protocol used across the Internet for especially **time-sensitive transmissions such as video playback or DNS lookups.**
 
 
+## Web server
+
+Web sever can be reffered to both software or hardware that satisfies the criteria of (serve clients) World Wide web client requests.
+
+
+## Static server
+A static web server, consists of a computer (hardware) with an HTTP server(software) that sends its hosted files **as-is** to the web browser.
+
+
+## Application server
+
+A static server with some extra software. Application server updates the hosted files before sending them over to the browser.
+
+
+
 
 
 
