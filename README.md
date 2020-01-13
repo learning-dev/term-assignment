@@ -627,6 +627,41 @@ Messaging Queue allows application to communicate by sending messages to each ot
 a communication system between mutually interacting software applications in service-oriented architecture.
 
 
+## RabbitMQ
+
+RabbitMQ is a message-queueing software also known as a message broker or queue manager. It is a software where queues are defined, to which applications connect in order to transfer a message or messages.
+
+
+## Kafka
+
+It is sofware used to process the streaming data. It is developed LinkedIn and donated to Apache. It has high-throughput and low latency for handling real-time data feeds.
+
+
+## Zookeeper
+
+Apache Zookeeper is distributed coordination service that lets you manage a large sets of hosts like maintaining configuration of all systems at one place.
+
+
+## Service Oriented Architecture
+
+a style of software design where services are provided to other components by application components, through a communication protocol over a network.
+
+
+## Microservices Architecture
+
+an architectural style that structures an application as a collection of small autonomous services, modeled around a business domain.
+
+
+## 	Redis? Why?
+
+Redis is an in-memory data structure store, used as a database, cache and message broker.
+
+Why?
+It is NoSQL database, which is fast to read. Caching mechanism makes it much more faster.
+
+
+
+
 
 
 
