@@ -684,6 +684,20 @@ Why?
 If you are using django, then use celery. It goes well with it and it is written in python.
 
 
+## NodeJS
+
+Node.js is  cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. It is famous for it's asynchronous nature of execution
+
+## Progressive Web Apps (PWA)
+
+A Progressive Web App (PWA) is a web app that uses modern web capabilities to deliver an app-like experience to users. It should meet certain criteria like Progresssive - give **same experience to every user regardless of browser**, it should be resposive and so on ..
+
+
+## Session Based Authentication
+
+
+
+
 
 
 
