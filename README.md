@@ -383,3 +383,19 @@ git merge another-branch # cherry-pick commit with given hash
 
 **10. Redis** - it is an open source database, with im-memory data structure store. Can be used database, cache and message broker.
 
+
+## ACID
+
+**ACID** refers to the four key properties of a transaction: atomicity, consistency, isolation, and durability.
+
+- **Atomicity** : All changes to data are  performed as if they are a single operation. For example, in an application that transfers funds from one account to another, **the atomicity property ensures** that, if **a debit is made successfully from one account**, the **corresponding credit is made to the other account.**
+
+- **Consistency** : Data is in consistent state when a 	transaction starts and when it ends.
+
+
+- **Isolation** : the intermediate state of a transaction  is invisible  to other transations. As a result, transaction that run concurrently appear to be serialized.
+
+- **Durability** : After a transaction successfully completes, changes to data persist and are not undone, even in the event of a system failure.
+
+
+
