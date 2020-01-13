@@ -657,7 +657,31 @@ an architectural style that structures an application as a collection of small a
 Redis is an in-memory data structure store, used as a database, cache and message broker.
 
 Why?
-It is NoSQL database, which is fast to read. Caching mechanism makes it much more faster.
+
+Because, It is NoSQL database, which is fast to read. Caching mechanism makes it much more faster.
+
+
+## Solr? Why?
+
+Solr is an enterprise-search platform. Features include full-text search, hit highlighting etc.
+
+Why?Elasticsearch is a highly scalable open-source full-text search and analytics engine. It allows you to store, search, and analyze big volumes of data quickly and in near real time.
+
+because, database does't usually have wildcard based search system. Solr provides full text search and it is very fast.
+
+## ElasticSearch? Why?
+
+Elasticsearch is a highly scalable full-text search and analytics engine. It allows you to store, search, and analyze big volumes of data quickly, which is near to real time.
+
+Why?
+Elasticsearch speaks JSON, if you use JSON all around then it is a good choice.
+
+## Celery? Why?
+
+Celery is Python task Queue system that handles distrubution of task across workers or a network. It makes handling of Asynchronous task easier.
+
+Why?
+If you are using django, then use celery. It goes well with it and it is written in python.
 
 
 
